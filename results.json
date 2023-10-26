@@ -1,0 +1,1173 @@
+{
+  "test_case_results": [
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "create-issue-comment-public-with-1-user",
+      "test_suite_name": "create-issue-comment-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  avg HTTP latency value of 90.60 ms exceeds the threshold of 89 ms\nThe  med HTTP latency value of 87.31 ms exceeds the threshold of 82 ms",
+      "test_case_metadata": {
+        "test_script_name": "timeline-comments-public-spec.js",
+        "api_endpoint": "/timeline-entries.create"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "99.53",
+          "p(95)": "105.83",
+          "max": "112.13",
+          "min": "81.22",
+          "avg": "90.60",
+          "med": "87.31"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:55:20.000Z",
+        "execution_end_time": "2023-09-26T22:55:29.000Z",
+        "execution_duration": "9"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:55:20.000Z",
+        "execution_end_time": "2023-09-26T22:55:31.000Z",
+        "execution_duration": "11",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "create-issue-public-with-1-user",
+      "test_suite_name": "create-issue-public",
+      "test_case_status": "Fail",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 210.42 ms exceeds the threshold of 148 ms\nThe  p(95) HTTP latency value of 217.58 ms exceeds the threshold of 150 ms\nThe  avg HTTP latency value of 161.34 ms exceeds the threshold of 138 ms\nThe  med HTTP latency value of 162.73 ms exceeds the threshold of 133 ms",
+      "test_case_metadata": {
+        "test_script_name": "works-public-spec.js",
+        "api_endpoint": "/works.create"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "210.42",
+          "p(95)": "217.58",
+          "max": "224.73",
+          "min": "127.52",
+          "avg": "161.34",
+          "med": "162.73"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:56:48.000Z",
+        "execution_end_time": "2023-09-26T22:56:57.000Z",
+        "execution_duration": "9"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:56:47.000Z",
+        "execution_end_time": "2023-09-26T22:56:59.000Z",
+        "execution_duration": "12",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "create-part-public-with-1-user",
+      "test_suite_name": "create-part-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 161.84 ms exceeds the threshold of 129 ms\nThe  p(95) HTTP latency value of 281.88 ms exceeds the threshold of 130 ms\nThe  avg HTTP latency value of 156.36 ms exceeds the threshold of 121 ms\nThe  med HTTP latency value of 131.49 ms exceeds the threshold of 118 ms",
+      "test_case_metadata": {
+        "test_script_name": "parts-public-spec.js",
+        "api_endpoint": "/parts.create"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "161.84",
+          "p(95)": "281.88",
+          "max": "401.91",
+          "min": "120.20",
+          "avg": "156.36",
+          "med": "131.49"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:53:16.000Z",
+        "execution_end_time": "2023-09-26T22:53:24.000Z",
+        "execution_duration": "8"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:53:15.000Z",
+        "execution_end_time": "2023-09-26T22:53:27.000Z",
+        "execution_duration": "12",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "create-revorg-public-with-1-user",
+      "test_suite_name": "create-revorg-public",
+      "test_case_status": "Fail",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 180.99 ms exceeds the threshold of 95 ms\nThe  p(95) HTTP latency value of 223.24 ms exceeds the threshold of 95 ms\nThe  avg HTTP latency value of 130.58 ms exceeds the threshold of 89 ms\nThe  med HTTP latency value of 108.62 ms exceeds the threshold of 94 ms",
+      "test_case_metadata": {
+        "test_script_name": "identity-public-spec.js",
+        "api_endpoint": "/rev-orgs.create"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "180.99",
+          "p(95)": "223.24",
+          "max": "265.48",
+          "min": "94.62",
+          "avg": "130.58",
+          "med": "108.62"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:52:26.000Z",
+        "execution_end_time": "2023-09-26T22:52:34.000Z",
+        "execution_duration": "8"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:52:25.000Z",
+        "execution_end_time": "2023-09-26T22:52:36.000Z",
+        "execution_duration": "11",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "create-tag-public-with-1-user",
+      "test_suite_name": "create-tag-public",
+      "test_case_status": "Fail",
+      "test_case_failure_message": "The  avg HTTP latency value of 50.54 ms exceeds the threshold of 38 ms\nThe  med HTTP latency value of 46.77 ms exceeds the threshold of 38 ms\nThe  p(90) HTTP latency value of 63.11 ms exceeds the threshold of 39 ms\nThe  p(95) HTTP latency value of 64.10 ms exceeds the threshold of 40 ms",
+      "test_case_metadata": {
+        "test_script_name": "tags-public-spec.js",
+        "api_endpoint": "/tags.create"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "63.11",
+          "p(95)": "64.10",
+          "max": "65.10",
+          "min": "43.65",
+          "avg": "50.54",
+          "med": "46.77"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:54:19.000Z",
+        "execution_end_time": "2023-09-26T22:54:26.000Z",
+        "execution_duration": "7"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:54:18.000Z",
+        "execution_end_time": "2023-09-26T22:54:28.000Z",
+        "execution_duration": "10",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "create-ticket-public-with-1-user",
+      "test_suite_name": "create-ticket-public",
+      "test_case_status": "Fail",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 227.04 ms exceeds the threshold of 161 ms\nThe  p(95) HTTP latency value of 241.52 ms exceeds the threshold of 161 ms\nThe  avg HTTP latency value of 157.60 ms exceeds the threshold of 148 ms",
+      "test_case_metadata": {
+        "test_script_name": "works-public-spec.js",
+        "api_endpoint": "/works.create"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "227.04",
+          "p(95)": "241.52",
+          "max": "255.99",
+          "min": "122.60",
+          "avg": "157.60",
+          "med": "135.76"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:57:02.000Z",
+        "execution_end_time": "2023-09-26T22:57:11.000Z",
+        "execution_duration": "9"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:57:01.000Z",
+        "execution_end_time": "2023-09-26T22:57:13.000Z",
+        "execution_duration": "12",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "delete-issue-public-with-1-user",
+      "test_suite_name": "delete-issue-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The HTTP failure rate  value of 0.10  exceeds the threshold of 0.01 \nThe  p(95) HTTP latency value of 79.29 ms exceeds the threshold of 67 ms\nThe  avg HTTP latency value of 72.33 ms exceeds the threshold of 66 ms\nThe  med HTTP latency value of 72.90 ms exceeds the threshold of 66 ms\nThe  p(90) HTTP latency value of 76.77 ms exceeds the threshold of 67 ms",
+      "test_case_metadata": {
+        "test_script_name": "works-public-spec.js",
+        "api_endpoint": "/works.delete"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "76.77",
+          "p(95)": "79.29",
+          "max": "81.81",
+          "min": "56.53",
+          "avg": "72.33",
+          "med": "72.90"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.10",
+          "request_pass_count": 9,
+          "request_fail_count": 1
+        },
+        "execution_start_time": "2023-09-26T22:57:43.000Z",
+        "execution_end_time": "2023-09-26T22:57:51.000Z",
+        "execution_duration": "8"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:57:42.000Z",
+        "execution_end_time": "2023-09-26T22:57:53.000Z",
+        "execution_duration": "11",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "delete-part-public-with-1-user",
+      "test_suite_name": "delete-part-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The HTTP failure rate  value of 0.20  exceeds the threshold of 0.01 ",
+      "test_case_metadata": {
+        "test_script_name": "parts-public-spec.js",
+        "api_endpoint": "/parts.delete"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "90.51",
+          "p(95)": "90.89",
+          "max": "91.26",
+          "min": "73.45",
+          "avg": "83.63",
+          "med": "83.16"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.20",
+          "request_pass_count": 8,
+          "request_fail_count": 2
+        },
+        "execution_start_time": "2023-09-26T22:53:42.000Z",
+        "execution_end_time": "2023-09-26T22:53:50.000Z",
+        "execution_duration": "8"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:53:41.000Z",
+        "execution_end_time": "2023-09-26T22:53:52.000Z",
+        "execution_duration": "11",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "delete-tag-public-with-1-user",
+      "test_suite_name": "delete-tag-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 56.27 ms exceeds the threshold of 37 ms\nThe  p(95) HTTP latency value of 64.45 ms exceeds the threshold of 38 ms\nThe  avg HTTP latency value of 49.07 ms exceeds the threshold of 34 ms\nThe  med HTTP latency value of 45.84 ms exceeds the threshold of 32 ms",
+      "test_case_metadata": {
+        "test_script_name": "tags-public-spec.js",
+        "api_endpoint": "/tags.delete"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "56.27",
+          "p(95)": "64.45",
+          "max": "72.62",
+          "min": "42.57",
+          "avg": "49.07",
+          "med": "45.84"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:54:43.000Z",
+        "execution_end_time": "2023-09-26T22:54:50.000Z",
+        "execution_duration": "7"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:54:42.000Z",
+        "execution_end_time": "2023-09-26T22:54:52.000Z",
+        "execution_duration": "10",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "delete-ticket-public-with-1-user",
+      "test_suite_name": "delete-ticket-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The HTTP failure rate  value of 0.30  exceeds the threshold of 0.01 \nThe  med HTTP latency value of 74.40 ms exceeds the threshold of 71 ms",
+      "test_case_metadata": {
+        "test_script_name": "works-public-spec.js",
+        "api_endpoint": "/works.delete"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "92.50",
+          "p(95)": "95.72",
+          "max": "98.94",
+          "min": "56.94",
+          "avg": "75.11",
+          "med": "74.40"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.30",
+          "request_pass_count": 7,
+          "request_fail_count": 3
+        },
+        "execution_start_time": "2023-09-26T22:57:56.000Z",
+        "execution_end_time": "2023-09-26T22:58:04.000Z",
+        "execution_duration": "8"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:57:55.000Z",
+        "execution_end_time": "2023-09-26T22:58:06.000Z",
+        "execution_duration": "11",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "export-issues-public-with-1-user",
+      "test_suite_name": "export-issues-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 4925.93 ms exceeds the threshold of 2695 ms\nThe  p(95) HTTP latency value of 4958.23 ms exceeds the threshold of 2705 ms\nThe  avg HTTP latency value of 4606.96 ms exceeds the threshold of 2578 ms\nThe  med HTTP latency value of 4567.72 ms exceeds the threshold of 2610 ms",
+      "test_case_metadata": {
+        "test_script_name": "works-public-spec.js",
+        "api_endpoint": "/works.export"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "4925.93",
+          "p(95)": "4958.23",
+          "max": "4990.53",
+          "min": "4347.97",
+          "avg": "4606.96",
+          "med": "4567.72"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:58:09.000Z",
+        "execution_end_time": "2023-09-26T22:59:19.000Z",
+        "execution_duration": "70"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:58:08.000Z",
+        "execution_end_time": "2023-09-26T22:59:21.000Z",
+        "execution_duration": "73",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "export-tickets-public-with-1-user",
+      "test_suite_name": "export-tickets-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  med HTTP latency value of 5905.63 ms exceeds the threshold of 2978 ms\nThe  p(90) HTTP latency value of 6330.09 ms exceeds the threshold of 3211 ms\nThe  p(95) HTTP latency value of 6358.85 ms exceeds the threshold of 3240 ms\nThe  avg HTTP latency value of 5971.61 ms exceeds the threshold of 3062 ms",
+      "test_case_metadata": {
+        "test_script_name": "works-public-spec.js",
+        "api_endpoint": "/works.export"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "6330.09",
+          "p(95)": "6358.85",
+          "max": "6387.61",
+          "min": "5575.82",
+          "avg": "5971.61",
+          "med": "5905.63"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:59:24.000Z",
+        "execution_end_time": "2023-09-26T23:00:48.000Z",
+        "execution_duration": "84"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:59:23.000Z",
+        "execution_end_time": "2023-09-26T23:00:51.000Z",
+        "execution_duration": "88",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "get-conversation-comment-public-with-1-user",
+      "test_suite_name": "get-conversation-comment-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(95) HTTP latency value of 65.06 ms exceeds the threshold of 47 ms\nThe  avg HTTP latency value of 56.49 ms exceeds the threshold of 47 ms\nThe  med HTTP latency value of 55.68 ms exceeds the threshold of 47 ms\nThe  p(90) HTTP latency value of 64.12 ms exceeds the threshold of 47 ms",
+      "test_case_metadata": {
+        "test_script_name": "timeline-comments-public-spec.js",
+        "api_endpoint": "/timeline-entries.get"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "64.12",
+          "p(95)": "65.06",
+          "max": "66.00",
+          "min": "50.69",
+          "avg": "56.49",
+          "med": "55.68"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:55:08.000Z",
+        "execution_end_time": "2023-09-26T22:55:16.000Z",
+        "execution_duration": "8"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:55:07.000Z",
+        "execution_end_time": "2023-09-26T22:55:18.000Z",
+        "execution_duration": "11",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "get-current-devuser-public-with-1-user",
+      "test_suite_name": "get-current-devuser-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 46.99 ms exceeds the threshold of 28 ms\nThe  p(95) HTTP latency value of 53.01 ms exceeds the threshold of 29 ms\nThe  avg HTTP latency value of 42.87 ms exceeds the threshold of 28 ms\nThe  med HTTP latency value of 40.90 ms exceeds the threshold of 27 ms",
+      "test_case_metadata": {
+        "test_script_name": "identity-public-spec.js",
+        "api_endpoint": "/dev-users.self"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "46.99",
+          "p(95)": "53.01",
+          "max": "59.03",
+          "min": "36.32",
+          "avg": "42.87",
+          "med": "40.90"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:52:14.000Z",
+        "execution_end_time": "2023-09-26T22:52:21.000Z",
+        "execution_duration": "7"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:52:13.000Z",
+        "execution_end_time": "2023-09-26T22:52:23.000Z",
+        "execution_duration": "10",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "get-issue-public-with-1-user",
+      "test_suite_name": "get-issue-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 112.08 ms exceeds the threshold of 49 ms\nThe  p(95) HTTP latency value of 145.30 ms exceeds the threshold of 49 ms\nThe  avg HTTP latency value of 85.11 ms exceeds the threshold of 46 ms\nThe  med HTTP latency value of 74.96 ms exceeds the threshold of 47 ms",
+      "test_case_metadata": {
+        "test_script_name": "works-public-spec.js",
+        "api_endpoint": "/works.get"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "112.08",
+          "p(95)": "145.30",
+          "max": "178.51",
+          "min": "53.96",
+          "avg": "85.11",
+          "med": "74.96"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:56:22.000Z",
+        "execution_end_time": "2023-09-26T22:56:30.000Z",
+        "execution_duration": "8"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:56:21.000Z",
+        "execution_end_time": "2023-09-26T22:56:32.000Z",
+        "execution_duration": "11",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "get-part-public-with-1-user",
+      "test_suite_name": "get-part-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  med HTTP latency value of 68.74 ms exceeds the threshold of 59 ms\nThe  p(90) HTTP latency value of 118.36 ms exceeds the threshold of 66 ms\nThe  p(95) HTTP latency value of 156.24 ms exceeds the threshold of 67 ms\nThe  avg HTTP latency value of 85.42 ms exceeds the threshold of 62 ms",
+      "test_case_metadata": {
+        "test_script_name": "parts-public-spec.js",
+        "api_endpoint": "/parts.get"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "118.36",
+          "p(95)": "156.24",
+          "max": "194.11",
+          "min": "60.77",
+          "avg": "85.42",
+          "med": "68.74"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:53:03.000Z",
+        "execution_end_time": "2023-09-26T22:53:11.000Z",
+        "execution_duration": "8"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:53:03.000Z",
+        "execution_end_time": "2023-09-26T22:53:13.000Z",
+        "execution_duration": "10",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "get-tag-public-with-1-user",
+      "test_suite_name": "get-tag-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(95) HTTP latency value of 45.68 ms exceeds the threshold of 27 ms\nThe  avg HTTP latency value of 40.39 ms exceeds the threshold of 26 ms\nThe  med HTTP latency value of 40.07 ms exceeds the threshold of 26 ms\nThe  p(90) HTTP latency value of 44.18 ms exceeds the threshold of 27 ms",
+      "test_case_metadata": {
+        "test_script_name": "tags-public-spec.js",
+        "api_endpoint": "/tags.get"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "44.18",
+          "p(95)": "45.68",
+          "max": "47.18",
+          "min": "36.63",
+          "avg": "40.39",
+          "med": "40.07"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:54:07.000Z",
+        "execution_end_time": "2023-09-26T22:54:14.000Z",
+        "execution_duration": "7"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:54:06.000Z",
+        "execution_end_time": "2023-09-26T22:54:16.000Z",
+        "execution_duration": "10",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "get-ticket-public-with-1-user",
+      "test_suite_name": "get-ticket-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(95) HTTP latency value of 146.63 ms exceeds the threshold of 127 ms\nThe  avg HTTP latency value of 93.47 ms exceeds the threshold of 91 ms\nThe  med HTTP latency value of 86.88 ms exceeds the threshold of 71 ms",
+      "test_case_metadata": {
+        "test_script_name": "works-public-spec.js",
+        "api_endpoint": "/works.get"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "120.43",
+          "p(95)": "146.63",
+          "max": "172.83",
+          "min": "57.55",
+          "avg": "93.47",
+          "med": "86.88"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:56:35.000Z",
+        "execution_end_time": "2023-09-26T22:56:43.000Z",
+        "execution_duration": "8"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:56:34.000Z",
+        "execution_end_time": "2023-09-26T22:56:45.000Z",
+        "execution_duration": "11",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "list-conversation-comments-public-with-1-user",
+      "test_suite_name": "list-conversation-comments-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  med HTTP latency value of 58.86 ms exceeds the threshold of 58 ms",
+      "test_case_metadata": {
+        "test_script_name": "timeline-comments-public-spec.js",
+        "api_endpoint": "/timeline-entries.list"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "63.76",
+          "p(95)": "64.56",
+          "max": "65.36",
+          "min": "55.76",
+          "avg": "59.71",
+          "med": "58.86"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:54:55.000Z",
+        "execution_end_time": "2023-09-26T22:55:03.000Z",
+        "execution_duration": "8"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:54:54.000Z",
+        "execution_end_time": "2023-09-26T22:55:05.000Z",
+        "execution_duration": "11",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "list-devusers-public-with-1-user",
+      "test_suite_name": "list-devusers-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(95) HTTP latency value of 50.48 ms exceeds the threshold of 49 ms\nThe  avg HTTP latency value of 44.04 ms exceeds the threshold of 41 ms\nThe  med HTTP latency value of 43.11 ms exceeds the threshold of 41 ms",
+      "test_case_metadata": {
+        "test_script_name": "identity-public-spec.js",
+        "api_endpoint": "/dev-users.list"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "47.82",
+          "p(95)": "50.48",
+          "max": "53.13",
+          "min": "38.48",
+          "avg": "44.04",
+          "med": "43.11"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:51:50.000Z",
+        "execution_end_time": "2023-09-26T22:51:57.000Z",
+        "execution_duration": "7"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:51:49.000Z",
+        "execution_end_time": "2023-09-26T22:51:59.000Z",
+        "execution_duration": "10",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "list-issues-public-with-1-user",
+      "test_suite_name": "list-issues-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 596.03 ms exceeds the threshold of 166 ms\nThe  p(95) HTTP latency value of 630.57 ms exceeds the threshold of 173 ms\nThe  avg HTTP latency value of 487.82 ms exceeds the threshold of 114 ms\nThe  med HTTP latency value of 477.01 ms exceeds the threshold of 109 ms",
+      "test_case_metadata": {
+        "test_script_name": "works-public-spec.js",
+        "api_endpoint": "/works.list"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "596.03",
+          "p(95)": "630.57",
+          "max": "665.11",
+          "min": "388.60",
+          "avg": "487.82",
+          "med": "477.01"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:55:48.000Z",
+        "execution_end_time": "2023-09-26T22:56:01.000Z",
+        "execution_duration": "13"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:55:48.000Z",
+        "execution_end_time": "2023-09-26T22:56:03.000Z",
+        "execution_duration": "15",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "list-parts-public-with-1-user",
+      "test_suite_name": "list-parts-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  med HTTP latency value of 56.47 ms exceeds the threshold of 33 ms\nThe  p(90) HTTP latency value of 64.55 ms exceeds the threshold of 34 ms\nThe  p(95) HTTP latency value of 66.72 ms exceeds the threshold of 34 ms\nThe  avg HTTP latency value of 58.06 ms exceeds the threshold of 33 ms",
+      "test_case_metadata": {
+        "test_script_name": "parts-public-spec.js",
+        "api_endpoint": "/parts.list"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "64.55",
+          "p(95)": "66.72",
+          "max": "68.89",
+          "min": "53.64",
+          "avg": "58.06",
+          "med": "56.47"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:52:51.000Z",
+        "execution_end_time": "2023-09-26T22:52:58.000Z",
+        "execution_duration": "7"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:52:50.000Z",
+        "execution_end_time": "2023-09-26T22:53:01.000Z",
+        "execution_duration": "11",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "list-revorgs-public-with-1-user",
+      "test_suite_name": "list-revorgs-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  avg HTTP latency value of 51.93 ms exceeds the threshold of 39 ms\nThe  med HTTP latency value of 51.70 ms exceeds the threshold of 38 ms\nThe  p(90) HTTP latency value of 56.20 ms exceeds the threshold of 39 ms\nThe  p(95) HTTP latency value of 57.19 ms exceeds the threshold of 40 ms",
+      "test_case_metadata": {
+        "test_script_name": "identity-public-spec.js",
+        "api_endpoint": "/rev-orgs.get"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "56.20",
+          "p(95)": "57.19",
+          "max": "58.18",
+          "min": "45.87",
+          "avg": "51.93",
+          "med": "51.70"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:52:02.000Z",
+        "execution_end_time": "2023-09-26T22:52:09.000Z",
+        "execution_duration": "7"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:52:01.000Z",
+        "execution_end_time": "2023-09-26T22:52:11.000Z",
+        "execution_duration": "10",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "list-tags-public-with-1-user",
+      "test_suite_name": "list-tags-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(95) HTTP latency value of 63.79 ms exceeds the threshold of 31 ms\nThe  avg HTTP latency value of 48.32 ms exceeds the threshold of 30 ms\nThe  med HTTP latency value of 45.85 ms exceeds the threshold of 30 ms\nThe  p(90) HTTP latency value of 62.46 ms exceeds the threshold of 31 ms",
+      "test_case_metadata": {
+        "test_script_name": "tags-public-spec.js",
+        "api_endpoint": "/tags.list"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "62.46",
+          "p(95)": "63.79",
+          "max": "65.11",
+          "min": "42.02",
+          "avg": "48.32",
+          "med": "45.85"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:53:55.000Z",
+        "execution_end_time": "2023-09-26T22:54:02.000Z",
+        "execution_duration": "7"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:53:54.000Z",
+        "execution_end_time": "2023-09-26T22:54:04.000Z",
+        "execution_duration": "10",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "list-tickets-public-with-1-user",
+      "test_suite_name": "list-tickets-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  avg HTTP latency value of 398.35 ms exceeds the threshold of 100 ms\nThe  med HTTP latency value of 371.49 ms exceeds the threshold of 63 ms\nThe  p(90) HTTP latency value of 576.08 ms exceeds the threshold of 155 ms\nThe  p(95) HTTP latency value of 610.67 ms exceeds the threshold of 166 ms",
+      "test_case_metadata": {
+        "test_script_name": "works-public-spec.js",
+        "api_endpoint": "/works.list"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "576.08",
+          "p(95)": "610.67",
+          "max": "645.26",
+          "min": "211.23",
+          "avg": "398.35",
+          "med": "371.49"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:56:05.000Z",
+        "execution_end_time": "2023-09-26T22:56:17.000Z",
+        "execution_duration": "12"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:56:05.000Z",
+        "execution_end_time": "2023-09-26T22:56:19.000Z",
+        "execution_duration": "14",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "locate-artifact-public-with-1-user",
+      "test_suite_name": "locate-artifact-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 0.00 ms exceeds the threshold of 0 ms\nThe  p(95) HTTP latency value of 0.00 ms exceeds the threshold of 0 ms\nThe  avg HTTP latency value of 0.00 ms exceeds the threshold of 0 ms\nThe  med HTTP latency value of 0.00 ms exceeds the threshold of 0 ms",
+      "test_case_metadata": {
+        "test_script_name": "artifacts-public-spec.js",
+        "api_endpoint": "/artifacts.locate"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "0.00",
+          "p(95)": "0.00",
+          "max": "0.00",
+          "min": "0.00",
+          "avg": "0.00",
+          "med": "0.00"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 0,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:51:26.000Z",
+        "execution_end_time": "2023-09-26T22:51:33.000Z",
+        "execution_duration": "7"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:51:26.000Z",
+        "execution_end_time": "2023-09-26T22:51:35.000Z",
+        "execution_duration": "9",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "prepare-artifact-public-with-1-user",
+      "test_suite_name": "prepare-artifact-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 48.01 ms exceeds the threshold of 37 ms\nThe  p(95) HTTP latency value of 49.35 ms exceeds the threshold of 37 ms\nThe  avg HTTP latency value of 45.79 ms exceeds the threshold of 35 ms\nThe  med HTTP latency value of 45.41 ms exceeds the threshold of 35 ms",
+      "test_case_metadata": {
+        "test_script_name": "artifacts-public-spec.js",
+        "api_endpoint": "/artifacts.prepare"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "48.01",
+          "p(95)": "49.35",
+          "max": "50.69",
+          "min": "41.67",
+          "avg": "45.79",
+          "med": "45.41"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:51:38.000Z",
+        "execution_end_time": "2023-09-26T22:51:45.000Z",
+        "execution_duration": "7"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:51:37.000Z",
+        "execution_end_time": "2023-09-26T22:51:47.000Z",
+        "execution_duration": "10",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "update-issue-comment-public-with-1-user",
+      "test_suite_name": "update-issue-comment-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 59.57 ms exceeds the threshold of 39 ms\nThe  p(95) HTTP latency value of 75.13 ms exceeds the threshold of 39 ms\nThe  avg HTTP latency value of 53.96 ms exceeds the threshold of 37 ms\nThe  med HTTP latency value of 49.92 ms exceeds the threshold of 38 ms",
+      "test_case_metadata": {
+        "test_script_name": "timeline-comments-public-spec.js",
+        "api_endpoint": "/timeline-entries.update"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "59.57",
+          "p(95)": "75.13",
+          "max": "90.69",
+          "min": "44.94",
+          "avg": "53.96",
+          "med": "49.92"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:55:33.000Z",
+        "execution_end_time": "2023-09-26T22:55:43.000Z",
+        "execution_duration": "10"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:55:33.000Z",
+        "execution_end_time": "2023-09-26T22:55:46.000Z",
+        "execution_duration": "13",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "update-issue-public-with-1-user",
+      "test_suite_name": "update-issue-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(95) HTTP latency value of 132.56 ms exceeds the threshold of 119 ms\nThe  p(90) HTTP latency value of 127.25 ms exceeds the threshold of 119 ms",
+      "test_case_metadata": {
+        "test_script_name": "works-public-spec.js",
+        "api_endpoint": "/works.update"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "127.25",
+          "p(95)": "132.56",
+          "max": "137.88",
+          "min": "71.94",
+          "avg": "93.47",
+          "med": "84.46"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:57:16.000Z",
+        "execution_end_time": "2023-09-26T22:57:24.000Z",
+        "execution_duration": "8"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:57:15.000Z",
+        "execution_end_time": "2023-09-26T22:57:27.000Z",
+        "execution_duration": "12",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "update-part-public-with-1-user",
+      "test_suite_name": "update-part-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 97.04 ms exceeds the threshold of 82 ms\nThe  p(95) HTTP latency value of 118.29 ms exceeds the threshold of 83 ms\nThe  avg HTTP latency value of 85.19 ms exceeds the threshold of 74 ms\nThe  med HTTP latency value of 77.54 ms exceeds the threshold of 70 ms",
+      "test_case_metadata": {
+        "test_script_name": "parts-public-spec.js",
+        "api_endpoint": "/parts.update"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "97.04",
+          "p(95)": "118.29",
+          "max": "139.54",
+          "min": "72.04",
+          "avg": "85.19",
+          "med": "77.54"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:53:29.000Z",
+        "execution_end_time": "2023-09-26T22:53:37.000Z",
+        "execution_duration": "8"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:53:29.000Z",
+        "execution_end_time": "2023-09-26T22:53:39.000Z",
+        "execution_duration": "10",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "update-revorg-public-with-1-user",
+      "test_suite_name": "update-revorg-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  med HTTP latency value of 77.78 ms exceeds the threshold of 72 ms",
+      "test_case_metadata": {
+        "test_script_name": "identity-public-spec.js",
+        "api_endpoint": "/rev-orgs.update"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "84.75",
+          "p(95)": "86.01",
+          "max": "87.27",
+          "min": "70.19",
+          "avg": "78.73",
+          "med": "77.78"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:52:39.000Z",
+        "execution_end_time": "2023-09-26T22:52:46.000Z",
+        "execution_duration": "7"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:52:38.000Z",
+        "execution_end_time": "2023-09-26T22:52:48.000Z",
+        "execution_duration": "10",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "update-tag-public-with-1-user",
+      "test_suite_name": "update-tag-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(95) HTTP latency value of 53.69 ms exceeds the threshold of 37 ms\nThe  avg HTTP latency value of 49.60 ms exceeds the threshold of 37 ms\nThe  med HTTP latency value of 50.07 ms exceeds the threshold of 37 ms\nThe  p(90) HTTP latency value of 52.62 ms exceeds the threshold of 37 ms",
+      "test_case_metadata": {
+        "test_script_name": "tags-public-spec.js",
+        "api_endpoint": "/tags.update"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "52.62",
+          "p(95)": "53.69",
+          "max": "54.76",
+          "min": "43.94",
+          "avg": "49.60",
+          "med": "50.07"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:54:31.000Z",
+        "execution_end_time": "2023-09-26T22:54:38.000Z",
+        "execution_duration": "7"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:54:30.000Z",
+        "execution_end_time": "2023-09-26T22:54:40.000Z",
+        "execution_duration": "10",
+        "test_case_count": "1"
+      }
+    },
+    {
+      "test_case_type": "API Performance",
+      "test_case_name": "update-ticket-public-with-1-user",
+      "test_suite_name": "update-ticket-public",
+      "test_case_status": "Pass",
+      "test_case_failure_message": "The  p(90) HTTP latency value of 142.37 ms exceeds the threshold of 86 ms\nThe  p(95) HTTP latency value of 193.93 ms exceeds the threshold of 87 ms\nThe  avg HTTP latency value of 117.48 ms exceeds the threshold of 82 ms\nThe  med HTTP latency value of 105.34 ms exceeds the threshold of 80 ms",
+      "test_case_metadata": {
+        "test_script_name": "works-public-spec.js",
+        "api_endpoint": "/works.update"
+      },
+      "test_case_execution_metrics": {
+        "latency_metrics": {
+          "p(90)": "142.37",
+          "p(95)": "193.93",
+          "max": "245.48",
+          "min": "80.66",
+          "avg": "117.48",
+          "med": "105.34"
+        },
+        "failure_rate_metrics": {
+          "request_failure_rate": "0.00",
+          "request_pass_count": 10,
+          "request_fail_count": 0
+        },
+        "execution_start_time": "2023-09-26T22:57:29.000Z",
+        "execution_end_time": "2023-09-26T22:57:38.000Z",
+        "execution_duration": "9"
+      },
+      "test_suite_execution_metrics": {
+        "execution_start_time": "2023-09-26T22:57:29.000Z",
+        "execution_end_time": "2023-09-26T22:57:40.000Z",
+        "execution_duration": "11",
+        "test_case_count": "1"
+      }
+    }
+  ],
+  "test_execution_id": "Single-Public-API-Performance-QA-2023-09-26T22:51:26.000Z",
+  "test_execution_name": "Single-Public-API-Performance",
+  "test_execution_type": "scheduled_run",
+  "test_exec_metadata": {
+    "target_environment": "QA",
+    "client_region": "us-east-1",
+    "test_category": "Performance"
+  },
+  "test_run_execution_metrics": {
+    "execution_start_time": "2023-09-26T22:51:26.000Z",
+    "execution_end_time": "2023-09-26T23:00:53.000Z",
+    "execution_duration": "567",
+    "test_suite_count": "33"
+  }
+}
